@@ -1,0 +1,66 @@
+.cloud-background {
+    background-image: url(./assets/mario-cloud.jpg); 
+    background-repeat: repeat;
+    background-size: contain; 
+}
+
+.brick-background {
+    background-image: url(./assets/mario-brick.png); 
+    background-repeat: repeat;
+    background-size: contain; 
+}
+
+.hero-background {
+    background-color: #5c94fc;
+}
+
+.mario-font-title {
+    font-family: 'Super Mario 256', sans-serif;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    
+}
+
+.mario-font {
+    font-family: 'Super Mario 256', sans-serif;
+    color: black;
+}
+
+.profile-pic {
+    position: relative;
+    left: 50px;
+}
+
+.hanging-wood {
+    position: relative;
+    right: 215px;
+    top: 100px;
+}
+
+span {
+  margin: 0;  /* Remove any default margin */
+  padding: 0; /* Remove any padding */
+  letter-spacing: -19px;
+}
+
+
+.skill-image {
+    border-radius: 15px;
+    width: 300px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 0.5fr 2fr;
+    row-gap: 5rem;
+    column-gap: 2rem;
+}
+
+
